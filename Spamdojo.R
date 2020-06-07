@@ -846,4 +846,6 @@ load("rdata/rf.cv.4.RData")
 # Make predictions and drill-in on the results
 preds <- predict(rf.cv.4, test.svd)
 confusionMatrix(preds, test.svd$Label)
-#clean produced document
+# all code written and compiled to this point works efficiently
+# there are currently no bugs or deprecated code, but it may need 
+# future editing brush out bugs and replace deprecated code.
